@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="It is a simple Snake Video Game">
+    <meta name="keywords" content="snake game, game, JavaScript game, JavaScript project">
+    <meta name="author" content="Arnab Khan">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+
+    <link rel="stylesheet" href="snake-game.css">
+</head>
+<body>
+    <div class="premain">
+        <div class="main"></div>
+        <div class="mainstart" onclick="start()">CLICK HERE TO START GAME</div>
+    </div>
+    <div class="score">
+        <div class="timer">
+            <div class="cuscore">SCORE: 0</div>
+            <div class="hightscore">HIGHT SCORE: 0</div>
+            <div class="start" onclick="start()">START</div>
+            <div class="clear" onclick="clea()">CLEAR ALL</div>
+            <div class="pose" onclick="pose()">POSE</div>
+            <div class="speed" onclick="spee()">SPEED: 3</div>
+        </div>
+        <div class="control">
+            <div class="left" onclick="left()">LEFT</div>
+            <div class="right" onclick="right()">RIGHT</div>
+            <div class="up" onclick="up()">UP</div>
+            <div class="down" onclick="down()">DOWN</div>
+        </div>
+    </div>
+    <script src="snake-game.js"></script>
+</body>
+</html>
